@@ -1,5 +1,7 @@
 # ReactJS Portfolio
 
+### ***(Portfolio is still work-in-progress)***
+
 This project represents a Proof of Concept about realizing a simple React application (with minimal configuration), without using tools like `create-react-app`.
 It has been realized by using web application bundler [Parcel](https://parceljs.org/)<br>
 Thanks to [gh-pages](https://www.npmjs.com/package/gh-pages), it offers the possibility to deploy the web app, through dedicated npm script, on the corresponding [GitHub page](https://vpellegrino.github.io/reactjs-portfolio/#/).
