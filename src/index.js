@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Switch, Route } from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import {HashRouter, Route} from 'react-router-dom';
 import App from './components/App';
 import Header from './components/Header';
 import './index.css';
 
-ReactDOM.render(
-  <Router history={createBrowserHistory()}>
-    <Switch>
-      <Route exact path='/' render={() => <Header><App /></Header>} />
-    </Switch>
-  </Router>,
-  document.getElementById('root')
+ReactDOM.render((
+    <HashRouter>
+        <Route exact path='/' render={() => <Header><App/></Header>}/>
+    </HashRouter>),
+    document.getElementById('root')
 );
