@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.2.3",
-    "parcel": "^1.12.3",
+    "parcel": "^2.8.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1"
